@@ -1,0 +1,87 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    background-color: aliceblue;
+}
+
+/*p {*/
+    /*background-color: cadetblue;*/
+/*}*/
+
+br {
+    padding-bottom: 25px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float : left;
+}
+
+.title {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.padButt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.groupRow {
+    background-color: blue;
+}
+
+.aboutMe {
+    padding-left: 25px;
+}
+
+.profilePhoto {
+    float: left;
+    padding-right: 7px;
+}
+
+@media only screen and (min-width: 769px) {
+
+    .largeOnly {
+        visibility: visible;
+    }
+
+    .mediumOnly {
+        visibility: visible;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    .largeOnly {
+        visibility: hidden;
+    }
+
+    .mediumOnly {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+
+
+    .largeOnly {
+        visibility: hidden;
+    }
+
+    .mediumOnly {
+        visibility: hidden;
+    }
+}

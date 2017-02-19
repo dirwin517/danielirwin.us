@@ -1,0 +1,94 @@
+[
+  {
+    "name": "cucumber-report-store",
+    "description": "Cucumber Report Store - Cucumber saves reports in json files, this turns them into fairly pretty html"
+  },
+  {
+    "name": "deep-setter",
+    "description": "sets a value deep in an object"
+  },
+  {
+    "name": "deep-value",
+    "description": "get a value from an object within other objects safely"
+  },
+  {
+    "name": "diff-map",
+    "description": "Diff of 2 Maps based on Keys alone"
+  },
+  {
+    "name": "grunt-aggregate-i18n",
+    "description": "Aggregate i18n/l10n map string files into one file per brand/territory"
+  },
+  {
+    "name": "grunt-git-deploy2",
+    "description": "Deploy files to any branch of any remote git repository."
+  },
+  {
+    "name": "grunt-run-cmd",
+    "description": "Lets you invoke any command in any directory quickly without configuring a special task for it"
+  },
+  {
+    "name": "i18n-map-resolver",
+    "description": "resolves objects with i18n maps inside them even if deeply"
+  },
+  {
+    "name": "impswitch",
+    "description": "Switch Between Implementations"
+  },
+  {
+    "name": "json-func",
+    "description": "Lets you turn JSON into asynchronous api objects"
+  },
+  {
+    "name": "jwt-flip-middleware",
+    "description": "Express middleware, which if body is string converts from JWT => JSON if JSON => JWT"
+  },
+  {
+    "name": "map-attack",
+    "description": "Turns Maps into Arrays, Turns Arrays into Maps"
+  },
+  {
+    "name": "metricify",
+    "description": "Metrics Done Easy"
+  },
+  {
+    "name": "model-convert",
+    "description": "helps you convert your non-unified models from various sources into a single model you can use"
+  },
+  {
+    "name": "model-detect",
+    "description": "Detect Model Versions based on properties within the models"
+  },
+  {
+    "name": "netscan",
+    "description": "ip and port scanner"
+  },
+  {
+    "name": "object-reference-resolver",
+    "description": "Lets you Resolver Objects properties by referencing other objects"
+  },
+  {
+    "name": "pull-request-generator",
+    "description": "Generate Pull Requests w/ plugin support"
+  },
+  {
+    "name": "refab",
+    "description": "A Middleware pipeline framework Allows you to load an array of middleware and then run as a pipeline"
+  },
+  {
+    "name": "sails-swaggify",
+    "description": "creates swagger doc json for your sails routes"
+  },
+  {
+    "name": "subpub",
+    "description": "Simple Vanilla Event Subscriber/Publisher for both Browser / NodeJS"
+  },
+  {
+    "name": "tree-clean",
+    "description": "Lets you prune a tree via a callback similar to JS's build in Array.prototype.filter"
+  },
+  {
+    "name": "tree-iterate",
+    "description": "Lets you Iterate a Array-Tree in a high performance tested manner with the ability to get parents back as well"
+  }
+]

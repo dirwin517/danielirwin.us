@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Build Systems",
+    "description": "Building automated build systems for building micro-services deployed to AWS and mobile applications deployed to Android/IOS"
+  },
+  {
+    "name": "Mocking framework",
+    "description": "Created a mocking framework which uses JSON web tokens as a delivery mechanism over HTTP Headers, which are then decoded and consumed by said framework turning the JSON into Mock Services with fake payloads, making testing of systems in isolation possible including when underlying systems are not prepared"
+  },
+  {
+    "name": "Hierarchical Tree Processing MicroService",
+    "description": "Created an application service which requests, filters and returns a user's permitted tree, using NodeJS, SailsJS MVC Framework, deployed to AWS EC2, tested end to end as well as at integration points using custom build mocking framework that allows for testing isolation. Used CucumberJS for testing framework run using GruntJS task runner."
+  },
+  {
+    "name": "Lambda Data Service",
+    "description": "Wrote a AWS Lambda service which would consume data from Redis, and analyze the data associating it with other customer data, create a report and publish to a RESTful micro-service"
+  },
+  {
+    "name": "Location awareness algorithm package for PTZ robotics",
+    "description": "Created and tested an algorithm for locating \"defects\" discovered by a Pan/Tilt/Zoom robot, which had no GPS/Accelerometer data, using only points of reference and pan/tilt data from the camera, positioning the robot via quadlateration and then transposing that on the pan/tilt/depth data to find the \"defect\" points. Algorithm was written in C using Template Numeric Toolkit for..."
+  },
+  {
+    "name": "Test Results plugin for Jenkins",
+    "description": "Created a Jenkins CI plugin which analyzed Cucumber JSON reports and submitted results to Rally/Confluence, created Defects when regressions occurred and failed/passed build appropriately"
+  },
+  {
+    "name": "Build Deployment Wrapper Jenkins Plugin",
+    "description": "Created a Jenkins plugin which wrapped a pre-existing RESTful api for generated AWS Stacks, and enabled blue/green deployment as well as feature-branches with TTL teardown"
+  },
+  {
+    "name": "RISC Assembly Graphics Program",
+    "description": "Created a program in RISC(MIPS) assembly which took in a vertice count, and created an output of an equilateral polygon with that many vertices. Because MIPS is a Reduced instruction set computing assembler, Factorial,Power had to be written in an optimal way to create the Taylor series for Sin. as well as an implementation of bresenham's line drawing algorithm"
+  },
+  {
+    "name": "Angry Cats in Space",
+    "description": "For this free project I created a Java Applet which had a self contained physics engine and 2d render engine to allow for a Angry Birds in Space like game about a year before Angry Birds in Space was released"
+  },
+  {
+    "name": "Tariff-Engine",
+    "description": "Calculates Energy Usage cost based on the complicated set of Commercial/Industrial Energy Tariff rules"
+  }
+]
