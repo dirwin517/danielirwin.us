@@ -1,17 +1,42 @@
 body {
-    background-color: azure;
+    background-color: lightblue;
 }
 
-h1 {
-    background-color: aliceblue;
+.img-with-text {
+    text-align: justify;
+    height : 46px;
+    width : 46px;
 }
 
-/*p {*/
-    /*background-color: cadetblue;*/
-/*}*/
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+    height : 46px;
+    width : 46px;
+}
+
+.icon {
+    height : 32px;
+    width : 32px;
+}
+
+.navButton {
+    text-align: center;
+    background-color: cornflowerblue;
+
+    font-size: larger;
+    border: 2px solid darkcyan;
+    display: inline-block;
+    width : 20%
+}
 
 br {
     padding-bottom: 25px;
+}
+
+.header {
+    float: top;
+    padding-bottom: 85px;
 }
 
 .right {
@@ -22,9 +47,17 @@ br {
     float : left;
 }
 
+.pLeft {
+    padding-left: 50px;
+}
+
+.pLeftAlot {
+    padding-left: 150px;
+}
+
 .title {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 
 .padButt {
@@ -37,12 +70,14 @@ br {
 }
 
 .aboutMe {
+    min-width : 50%;
     padding-left: 25px;
 }
 
 .profilePhoto {
     float: left;
     padding-right: 7px;
+    padding-bottom:5px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -58,9 +93,6 @@ br {
 
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: aliceblue;
-    }
 
     .largeOnly {
         visibility: hidden;
@@ -72,11 +104,10 @@ br {
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
+
+    .profilePhoto {
+        padding-bottom:15px;
     }
-
-
     .largeOnly {
         visibility: hidden;
     }
