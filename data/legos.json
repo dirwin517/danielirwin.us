@@ -1,0 +1,38 @@
+[
+  {
+    "name" : "Restaurant, Pet Store, Space Needle, Garbage Truck",
+    "img" : "1.jpg"
+  },
+  {
+    "name" : "Laundromat, Bank",
+    "img" : "2.jpg"
+  },
+  {
+    "name" : "Poolhall, Al's Barbershop",
+    "img" : "3.jpg"
+  },
+  {
+    "name" : "Shopping Mall",
+    "img" : "4.jpg"
+  },
+  {
+    "name" : "Palace Cinema",
+    "img" : "5.jpg"
+  },
+  {
+    "name" : "Restaurant",
+    "img" : "6.jpg"
+  },
+  {
+    "name" : "Pet Store and Apartments",
+    "img" : "7.jpg"
+  },
+  {
+    "name" : "Triumphal Arch",
+    "img" : "8.jpg"
+  },
+  {
+    "name" : "Collection",
+    "img" : "9.jpg"
+  }
+]

@@ -80,39 +80,52 @@ br {
     padding-bottom:5px;
 }
 
-@media only screen and (min-width: 769px) {
+.rMargin {
+    margin-right: 16px;
+}
+
+.pwidth {
+    width : 90%
+}
+
+@media only screen and (min-width: 844px) {
 
     .largeOnly {
         visibility: visible;
+        display: block;
     }
 
-    .mediumOnly {
-        visibility: visible;
+    .smallOnly {
+        visibility: collapse;
+        display: none;
     }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 843px) {
 
     .largeOnly {
-        visibility: hidden;
+        visibility: collapse;
+        display: none;
     }
 
-    .mediumOnly {
+    .smallOnly {
         visibility: visible;
+        text-align: center;
+        display: block;
     }
 }
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {*/
 
-    .profilePhoto {
-        padding-bottom:15px;
-    }
-    .largeOnly {
-        visibility: hidden;
-    }
+    /*.profilePhoto {*/
+        /*padding-bottom:15px;*/
+    /*}*/
+    /*.largeOnly {*/
+        /*visibility: hidden;*/
+    /*}*/
 
-    .mediumOnly {
-        visibility: hidden;
-    }
-}
+    /*.mediumOnly {*/
+        /*visibility: hidden;*/
+    /*}*/
+/*}*/

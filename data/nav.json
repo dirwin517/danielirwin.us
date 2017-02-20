@@ -1,18 +1,42 @@
 [
   {
     "name" : "About",
-    "action"  : "loadTemplate('content', 'about.html', 'about.json')"
+    "action"  : "loadTemplate('content', 'about.html', 'about.json')",
+    "img" : "img/user-id-icon.png",
+    "href" : "javascript:void(0)"
   },
   {
-    "name" : "Open Sources",
-    "action"  : "loadTemplate('content', 'open.html', 'open.json')"
+    "name" : "OpenSrc",
+    "action"  : "loadTemplate('content', 'open.html', 'open.json')",
+    "img" : "img/tag-alt-icon.png",
+    "href" : "javascript:void(0)"
   },
   {
-    "name" : "Work Experiences",
-    "action"  : "loadTemplate('content', 'work.html', 'work.json')"
+    "name" : "Work",
+    "action"  : "loadTemplate('content', 'work.html', 'work.json')",
+    "img" : "img/tag-icon.png",
+    "href" : "javascript:void(0)"
   },
   {
     "name" : "Skills",
-    "action"  : "loadTemplate('content', 'skills.html', 'skills.json')"
+    "action"  : "loadTemplate('content', 'skills.html', 'skills.json')",
+    "img" : "img/flask-icon.png",
+    "href" : "javascript:void(0)"
+  },
+  {
+    "name" : "Legos",
+    "action"  : "loadTemplate('content', 'legos.html', 'legos.json')",
+    "img" : "img/brick-icon.png",
+    "href" : "javascript:void(0)"
+  },
+  {
+    "name" : "Donate",
+    "href"  : "https://paypal.me/danielirwin",
+    "img" : "img/beer-icon.png"
+  },
+  {
+    "name" : "Hire",
+    "href"  : "mailto:dirwin517@gmail.com?subject=I%20want%20to%20hire%20you&body=I%20want%20to%20hire%20you&",
+    "img" : "img/handshake-icon.png"
   }
 ]
