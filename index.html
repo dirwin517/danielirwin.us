@@ -1,46 +1,31 @@
 <html>
 
-  <link rel="stylesheet" type="text/css" href="styles/main.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <script src="scripts/main.js" type="application/javascript"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <body>
-    <h1 class="title">Daniel Irwin</h1>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <img class="profilePhoto" src="https://s.gravatar.com/avatar/6a5e1e9c61739247a936a8e2e11b0696?s=420">
+<link rel="stylesheet" type="text/css" href="styles/main.css" />
 
-    <div class="">
-      <h3>About Dan</h3>
-      <div class="aboutMe">I've enjoyed engineering software since the age of 11 what started as a hobby became a career. In University I focused my skills, allowing me to become more agile and work on a tight schedule as well as test rigorously for acceptance criteria as well as "fuzz". Creating hi-performance systems that are highly available and highly automated is my passion.</div>
+<script src="scripts/templates.js" type="application/javascript"></script>
+<script src="scripts/index.js" type="application/javascript"></script>
 
-      <h3>Career Experience</h3>
-      <div class="aboutMe">During various projects I have worked on I have personally created RESTful interfaces in Java and NodeJS for both back end services as well as front end services exposed to customers. Along with services I have written a multitude of libraries for my team as well as other teams, as well as open source projects open to a community of developers. I have written administrative User Interfaces for numerous applications, including but not limited to test interfaces for automation and quality assurance.
-      DevOps has been a large part of my work as well, creating build tools and creating automation frameworks. Creating systems that do large parts of my work to help leverage my skills in other places. For instance tools that create pull requests, integrating with github, rally, jenkins and AWS to help my Team create professional pull requests that are easy to understand for Product Managers so they know what's going into Production at any given time. Another tool I created helped us move from a manual deployment strategy to a world of continuous integration and continuous deployment.
-        I also strive to move our team and company forward with new technologies and techniques when the opportunity arises and it will help. I presented and introduced the Engineering group with technologies such as Swagger, SailsJS, ChimpJS, and Cucumber.</div>
+<body>
 
-      <h3>Goals</h3>
-      <div class="aboutMe">I want to create killer applications and innovate technology, create user experiences that wow.</div>
-    </div>
+<!--<div id="headers"></div>-->
 
+<div id="nav"></div>
 
-    <div>
-      <h1>Projects I've Worked On</h1>
-      <div id="closedProjects" class=""></div>
-    </div>
+<div id="content"></div>
 
-    <div>
-      <h1>Open Source Projects</h1>
-      <div id="projects" class=""></div>
-    </div>
+</body>
 
-  </body>
+<script type="application/javascript">
 
-  <script type="application/javascript">
-    var proj = document.getElementById('projects');
-    makeProjects(proj, { downloadPhoto : true, file : 'projects' });
-
-    var proj = document.getElementById('closedProjects');
-    makeProjects(proj, { file : 'closedProjects' });
-  </script>
+</script>
 
 </html>

@@ -1,0 +1,18 @@
+[
+  {
+    "name" : "About",
+    "action"  : "loadTemplate('content', 'about.html', 'about.json')"
+  },
+  {
+    "name" : "Open Sources",
+    "action"  : "loadTemplate('content', 'open.html', 'open.json')"
+  },
+  {
+    "name" : "Work Experiences",
+    "action"  : "loadTemplate('content', 'work.html', 'work.json')"
+  },
+  {
+    "name" : "Skills",
+    "action"  : "loadTemplate('content', 'skills.html', 'skills.json')"
+  }
+]
