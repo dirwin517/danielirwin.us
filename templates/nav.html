@@ -1,25 +1,14 @@
 <nav class="navbar navbar-default">
     <a class="navbar-brand" href="#">Daniel Irwin</a>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
 
         <ul class="nav navbar-nav">
 
         <repeat>
-            <li><a onclick="{{action}}" href="javascript:void(0);" >{{name}}</a></li>
+            <li><a onclick="{{action}}" href="{{href}}" ><img class="icon" src="{{img}}">{{name}}</a></li>
         </repeat>
         </ul>
-        <p class="navbar-text navbar-right">
-            <a href="https://paypal.me/danielirwin">
-                <img src="img/beer-icon.png" class="img-with-text">
-                Donate
-            </a>
-            <a href="mailto:dirwin517@gmail.com?subject=I%20want%20to%20hire%20you&body=I%20want%20to%20hire%20you&">
-                <img src="img/handshake-icon.png" class="img-with-text">
-                Hire
-            </a>
-        </p>
-
-        </div>
+        <!--</div>-->
     </div>
 
 </nav>
