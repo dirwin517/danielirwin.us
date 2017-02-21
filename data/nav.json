@@ -32,7 +32,8 @@
   {
     "name" : "Donate",
     "href"  : "https://paypal.me/danielirwin",
-    "img" : "img/beer-icon.png"
+    "img" : "img/beer-icon.png",
+    "target" : "_parent"
   },
   {
     "name" : "Hire",
